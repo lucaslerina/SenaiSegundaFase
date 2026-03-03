@@ -1,3 +1,4 @@
+/*Com base na lista de números, escreva um programa que imprima no console os números que são ímpares.*/
 const numeros = [18, 7, 15, 19, 53, 12, 40, 30, 34, 66];
 
 const usuarios = [
@@ -40,3 +41,10 @@ const usuarios = [
 ];
 
 
+
+numeros.forEach(numero => {
+ 
+  if (numero % 2 !== 0) {
+    console.log("O número " + numero + " é ímpar");
+  }
+});
