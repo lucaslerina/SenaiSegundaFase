@@ -1,5 +1,5 @@
 function exemploArray() {
-  const numeros = [1, 2, 3, 4, 5];
+  //const numeros = [1, 2, 3, 4, 5];
 
   // Acessando elementos do array
   console.log(numeros[0]); // Saída: 1
@@ -55,6 +55,13 @@ function exemploArray() {
     console.log(videoGamesDois[i]);
     if (videoGamesDois[i] === "PS4") {
       break;
+     
     }
   }
+const numeros = [1, 2, 3, 4, 5];
+
+// Mapeando o array para o seu dobro
+const numerosDobrados = numeros.map(numero => numero * 2);
+
+console.log(numerosDobrados); // Saída: [2, 4, 6, 8, 10]
 }
